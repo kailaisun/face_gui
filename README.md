@@ -1,6 +1,6 @@
 # face_gui
 ## 项目介绍 
-该项目能够从给定的正面照片中，自动识别脸部并提取和形成证件照的初步素材，然后替换背景颜色，并按照指定的规格进行规范化处理，最终形成符合要求的标准证件照。一共由5个模块组成：</br>
+该项目能够从给定的正面照片中，自动识别脸部区域，并对图像前景进行提取分割，然后替换背景，并按照证件照的规格进行规范化处理。一共由5个模块组成：</br>
 
 ### 1.	头部局部照识别与截取模块设计
 利用Vahid Kazemi 和 Josephine Sullivan提出的基于gradient boosting的回归树算法检测面部的68个关键点位置.</br>
@@ -19,17 +19,19 @@
 利用pyqt5进行界面设计.</br>
 
  ## 项目配置
- 环境平台：</br>
+ ### 环境平台：</br>
  python3</br>
  
- 模块安装：</br>
+ ### 模块安装：</br>
       pip install opencv-python </br>
       pip install pyqt5 </br>
       pip install dlib </br>
       
- 文件下载：[shape_predictor_68_face_landmarks.dat.bz2](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2)下载后放入data目录中</br>
+ ### 文件下载：</br>
+ [shape_predictor_68_face_landmarks.dat.bz2](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2)下载后放入data目录中</br>
  
- 脚本运行：python head.py
+ ### 脚本运行：</br>
+ python head.py
  
   ## 项目展示
   ![image](https://github.com/kailaisun/face_gui/blob/master/For%20show.png)
