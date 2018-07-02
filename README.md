@@ -1,5 +1,7 @@
 # face_gui
 ## 项目介绍 
+该项目能够从给定的正面照片中，自动识别脸部并提取和形成证件照的初步素材，然后替换背景颜色，并按照指定的规格进行规范化处理，最终形成符合要求的标准证件照。一共由5个模块组成：</br>
+
 ### 1.	头部局部照识别与截取模块设计
 利用Vahid Kazemi 和 Josephine Sullivan提出的基于gradient boosting的回归树算法检测面部的68个关键点位置.</br>
 [论文:One Millisecond Face Alignment with an Ensemble of Regression Trees](http://www.nada.kth.se/~vahidk/face_ert.html)</br>
