@@ -18,10 +18,10 @@
 
  ## 项目配置
  环境平台：windows10 python3</br>
- 模块安装：
- pip install opencv-python </br>
- pip install pyqt5 </br>
- pip install dlib </br>
+ 模块安装：</br>
+      pip install opencv-python </br>
+      pip install pyqt5 </br>
+      pip install dlib </br>
  文件下载：[shape_predictor_68_face_landmarks.dat.bz2](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2)下载后放入data目录中</br>
  脚本运行：python head.py
  
