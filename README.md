@@ -1,10 +1,11 @@
 # face_gui
 ## 项目介绍 
 ### 1.	头部局部照识别与截取模块设计
-利用Vahid Kazemi 和 Josephine Sullivan提出的基于gradient boosting的回归树算法检测面部的68个关键点位置.[论文](http://www.nada.kth.se/~vahidk/face_ert.html)
+利用Vahid Kazemi 和 Josephine Sullivan提出的基于gradient boosting的回归树算法检测面部的68个关键点位置.</br>
+[论文](http://www.nada.kth.se/~vahidk/face_ert.html)
        
 ### 2.	图像前景分割：opencv中的grabcut：
-[论文](https://wenku.baidu.com/view/4b8db16a58fafab069dc0292.html)
+[论文](https://wenku.baidu.com/view/4b8db16a58fafab069dc0292.html)</br>
 [讲解](https://www.cnblogs.com/qiaozhoulin/p/4509965.html)
  
 ### 3.	证件照规范化：
