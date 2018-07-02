@@ -16,8 +16,9 @@
     
 ### 5.	界面设计：
 利用pyqt5进行界面设计.
+![image](https://github.com/kailaisun/face_gui/blob/master/show.jpg)
 
  ## 项目配置
- 平台：python3.6
- 模块安装：opencv-python PyQt5  dlib
+ 平台：python3.6</br>
+ 模块安装：opencv-python PyQt5  dlib</br>
  文件下载：文件下载后放入data目录中[shape_predictor_68_face_landmarks.dat.bz2](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2)
