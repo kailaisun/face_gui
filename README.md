@@ -7,7 +7,7 @@
 [论文:One Millisecond Face Alignment with an Ensemble of Regression Trees](http://www.nada.kth.se/~vahidk/face_ert.html)</br>
        
 ### 2.	图像前景分割</br>
-利用opencv中的grabcut进行人脸周围区域的</br>
+利用opencv中的grabcut方法对人脸周围区域进行分割，将人头和衣服等前景分离出来.</br>
 [论文:GrabCut” — Interactive Foreground Extraction using Iterated Graph Cuts](https://wenku.baidu.com/view/4b8db16a58fafab069dc0292.html)</br>
  
 ### 3.	证件照规范化
